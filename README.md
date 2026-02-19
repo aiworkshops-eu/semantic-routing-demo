@@ -60,7 +60,7 @@ uv sync
 ### Run the Demo
 
 ```bash
-uv run semantic_router_production_demo.py
+uv run main.py
 ```
 
 ### What Happens
@@ -158,8 +158,3 @@ final_score = (intent_confidence * 0.5) + (semantic_confidence * 0.5)  # 50/50 s
 - **vLLM Semantic Router**: https://github.com/vllm-project/semantic-router
 - **Documentation**: https://vllm-semantic-router.com
 - **Paper**: "When to Reason: Semantic Router for vLLM" (NeurIPS 2025)
-
-## License
-
-This demo is part of the vLLM Semantic Router project - see main repository for
-license details.
